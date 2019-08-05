@@ -107,7 +107,7 @@ def playAgainstAi(depth):
             playingturn = playingturn + 1
         else :
             playingturn = playingturn - 1
-            winner = players[playingturn]
+        winner = players[playingturn]
     AiConditional( winner , looser)
 
 
